@@ -12,7 +12,7 @@
 //     compiler.flush(function () {
 //         console.log("All Temporary files flushed")
 //     })
-//     res.sendFile("C:/wamp64/www/PrepPros/ide/index.html")
+//     res.sendFile("C:/wamp64/www/Code-Editor/ide/index.html")
 // })
 // app.post("/compile", function (req, res) {
 //     var code = req.body.code
@@ -267,7 +267,7 @@ app.post("/compile", async function (req, res) {
     }
 });
 
-const PORT = 8000;
+const PORT = 9000;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
